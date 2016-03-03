@@ -1,0 +1,66 @@
+# vsim -lib __work -c sc_bench 
+# //  ModelSim SE 5.8b Jan 01 2004 Linux 2.6.32-573.7.1.el6.x86_64
+# //
+# //  Copyright Model Technology, a Mentor Graphics Corporation company, 2004
+# //                         All Rights Reserved.
+# //                   UNPUBLISHED, LICENSED SOFTWARE.
+# //         CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+# //        PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS.
+# //
+# Loading __work.sc_bench
+# Loading __work.sc_hier
+# Loading __work.clkrst
+# Loading __work.sc
+# Loading __work.dff
+run -all
+# OKAY :: ctr_rst = 0 : out = expected_out = 0
+# OKAY :: ctr_rst = 0 : out = expected_out = 0
+# OKAY :: ctr_rst = 0 : out = expected_out = 0
+# OKAY :: ctr_rst = 0 : out = expected_out = 1
+# OKAY :: ctr_rst = 1 : out = expected_out = 2
+# OKAY :: ctr_rst = 1 : out = expected_out = 0
+# OKAY :: ctr_rst = 0 : out = expected_out = 0
+# OKAY :: ctr_rst = 0 : out = expected_out = 1
+# OKAY :: ctr_rst = 1 : out = expected_out = 2
+# OKAY :: ctr_rst = 1 : out = expected_out = 0
+# OKAY :: ctr_rst = 0 : out = expected_out = 0
+# OKAY :: ctr_rst = 1 : out = expected_out = 1
+# OKAY :: ctr_rst = 1 : out = expected_out = 0
+# OKAY :: ctr_rst = 0 : out = expected_out = 0
+# OKAY :: ctr_rst = 1 : out = expected_out = 1
+# OKAY :: ctr_rst = 0 : out = expected_out = 0
+# OKAY :: ctr_rst = 0 : out = expected_out = 1
+# OKAY :: ctr_rst = 0 : out = expected_out = 2
+# OKAY :: ctr_rst = 1 : out = expected_out = 3
+# OKAY :: ctr_rst = 0 : out = expected_out = 0
+# OKAY :: ctr_rst = 0 : out = expected_out = 1
+# OKAY :: ctr_rst = 1 : out = expected_out = 2
+# OKAY :: ctr_rst = 0 : out = expected_out = 0
+# OKAY :: ctr_rst = 0 : out = expected_out = 1
+# OKAY :: ctr_rst = 0 : out = expected_out = 2
+# OKAY :: ctr_rst = 0 : out = expected_out = 3
+# OKAY :: ctr_rst = 0 : out = expected_out = 4
+# OKAY :: ctr_rst = 0 : out = expected_out = 5
+# OKAY :: ctr_rst = 0 : out = expected_out = 5
+# OKAY :: ctr_rst = 0 : out = expected_out = 5
+# OKAY :: ctr_rst = 0 : out = expected_out = 5
+# OKAY :: ctr_rst = 0 : out = expected_out = 5
+# OKAY :: ctr_rst = 0 : out = expected_out = 5
+# OKAY :: ctr_rst = 0 : out = expected_out = 5
+# OKAY :: ctr_rst = 0 : out = expected_out = 5
+# OKAY :: ctr_rst = 0 : out = expected_out = 5
+# OKAY :: ctr_rst = 0 : out = expected_out = 5
+# OKAY :: ctr_rst = 0 : out = expected_out = 5
+# OKAY :: ctr_rst = 0 : out = expected_out = 5
+# OKAY :: ctr_rst = 0 : out = expected_out = 5
+# OKAY :: ctr_rst = 1 : out = expected_out = 5
+# OKAY :: ctr_rst = 0 : out = expected_out = 0
+# OKAY :: ctr_rst = 0 : out = expected_out = 1
+# OKAY :: ctr_rst = 0 : out = expected_out = 2
+# OKAY :: ctr_rst = 1 : out = expected_out = 3
+# OKAY :: ctr_rst = 0 : out = expected_out = 0
+# OKAY :: ctr_rst = 1 : out = expected_out = 1
+# OKAY :: ctr_rst = 0 : out = expected_out = 0
+# TEST PASSED
+# ** Note: $finish    : sc_bench.v(31)
+#    Time: 4800 ns  Iteration: 0  Instance: /sc_bench

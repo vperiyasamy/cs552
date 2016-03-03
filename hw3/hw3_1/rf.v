@@ -1,6 +1,5 @@
-/* $Author: karu $ */
-/* $LastChangedDate: 2009-03-04 23:09:45 -0600 (Wed, 04 Mar 2009) $ */
-/* $Rev: 45 $ */
+/* $Authors: Viswesh Periyasamy && Nick Metzger $ */
+/* $Module: Register File */
 module rf (
            // Outputs
            read1data, read2data, err,
@@ -38,7 +37,8 @@ module rf (
    reg_16 r7(.read_data(r7_out), .clk(clk), .rst(rst), 
              .writedata(writedata), .write(write_en[7]));
 
-   assign write_en = (writeregsel == 3'b000) ? 8'h01 :
+   assign write_en = (!write) ? 8'h00 :
+		     (writeregsel == 3'b000) ? 8'h01 :
 		     (writeregsel == 3'b001) ? 8'h02 :
                      (writeregsel == 3'b010) ? 8'h04 :
                      (writeregsel == 3'b011) ? 8'h08 :

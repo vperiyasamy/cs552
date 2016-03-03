@@ -1,0 +1,461 @@
+# vsim -lib __work -c fifo_bench 
+# //  ModelSim SE 5.8b Jan 01 2004 Linux 2.6.32-573.7.1.el6.x86_64
+# //
+# //  Copyright Model Technology, a Mentor Graphics Corporation company, 2004
+# //                         All Rights Reserved.
+# //                   UNPUBLISHED, LICENSED SOFTWARE.
+# //         CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+# //        PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS.
+# //
+# Loading __work.fifo_bench
+# Loading __work.fifo_hier
+# Loading __work.clkrst
+# Loading __work.fifo
+# Loading __work.dff
+run -all
+# 
+# Cycle:    0 data_in: 0000000000000000, data_in_valid: 0, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 1, Expected fifo_empty: 1, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:    1 data_in: 0000000000000000, data_in_valid: 0, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 1, Expected fifo_empty: 1, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:    2 data_in: 0000000000000000, data_in_valid: 0, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 1, Expected fifo_empty: 1, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:    3 data_in: 462df78c76d457ed, data_in_valid: 1, pop_fifo: 0
+#     data_out: 462df78c76d457ed, Expected data_out: 462df78c76d457ed, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:    4 data_in: d513d2aae2f784c5, data_in_valid: 1, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:    5 data_in: 47ecdb8f8932d612, data_in_valid: 0, pop_fifo: 0
+#     data_out: d513d2aae2f784c5, Expected data_out: d513d2aae2f784c5, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:    6 data_in: e2ca4ec5f4007ae8, data_in_valid: 0, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 1, Expected fifo_empty: 1, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:    7 data_in: b2a7266596ab582d, data_in_valid: 1, pop_fifo: 0
+#     data_out: b2a7266596ab582d, Expected data_out: b2a7266596ab582d, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:    8 data_in: 10642120c03b2280, data_in_valid: 0, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 1, Expected fifo_empty: 1, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:    9 data_in: 8983b813cb203e96, data_in_valid: 1, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   10 data_in: eaa62ad5359fdd6b, data_in_valid: 0, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   11 data_in: e7c572cf0effe91d, data_in_valid: 1, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   12 data_in: 9e314c3ce5730aca, data_in_valid: 0, pop_fifo: 0
+#     data_out: 8983b813cb203e96, Expected data_out: 8983b813cb203e96, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   13 data_in: ec4b34d820c4b341, data_in_valid: 0, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   14 data_in: 5b0265b675c50deb, data_in_valid: 0, pop_fifo: 0
+#     data_out: e7c572cf0effe91d, Expected data_out: e7c572cf0effe91d, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   15 data_in: 150fdd2ade7502bc, data_in_valid: 1, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   16 data_in: 27f2554f42f24185, data_in_valid: 1, pop_fifo: 0
+#     data_out: 150fdd2ade7502bc, Expected data_out: 150fdd2ade7502bc, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   17 data_in: 0aaa4b15bf23327e, data_in_valid: 1, pop_fifo: 1
+#     data_out: 27f2554f42f24185, Expected data_out: 27f2554f42f24185, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   18 data_in: 2635fb4c31230762, data_in_valid: 1, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   19 data_in: dbcd60b77c6da9f8, data_in_valid: 1, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   20 data_in: 44de3789adcbc05b, data_in_valid: 1, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 1, Expected fifo_full: 1
+# 
+# Cycle:   21 data_in: a8c7fc51ebfec0d7, data_in_valid: 0, pop_fifo: 0
+#     data_out: 0aaa4b15bf23327e, Expected data_out: 0aaa4b15bf23327e, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 1, Expected fifo_full: 1
+# 
+# Cycle:   22 data_in: 6457edc8e12ccec2, data_in_valid: 1, pop_fifo: 1
+#     data_out: 2635fb4c31230762, Expected data_out: 2635fb4c31230762, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   23 data_in: bf05007e090cdb12, data_in_valid: 1, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   24 data_in: e9ebf6d30fd28f1f, data_in_valid: 1, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 1, Expected fifo_full: 1
+# 
+# Cycle:   25 data_in: 248b4b492dda595b, data_in_valid: 1, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 1, Expected fifo_full: 1
+# 
+# Cycle:   26 data_in: c33f38862c156358, data_in_valid: 0, pop_fifo: 0
+#     data_out: dbcd60b77c6da9f8, Expected data_out: dbcd60b77c6da9f8, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 1, Expected fifo_full: 1
+# 
+# Cycle:   27 data_in: 937dbc267d3599fa, data_in_valid: 1, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   28 data_in: d9d292b39799a82f, data_in_valid: 1, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 1, Expected fifo_full: 1
+# 
+# Cycle:   29 data_in: e59b36cb7bf8fdf7, data_in_valid: 0, pop_fifo: 0
+#     data_out: 44de3789adcbc05b, Expected data_out: 44de3789adcbc05b, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 1, Expected fifo_full: 1
+# 
+# Cycle:   30 data_in: f682e2ed14cfc129, data_in_valid: 0, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   31 data_in: efbe94dfda8ae2b5, data_in_valid: 1, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 1, Expected fifo_full: 1
+# 
+# Cycle:   32 data_in: 15090b2ae8740cd0, data_in_valid: 1, pop_fifo: 0
+#     data_out: bf05007e090cdb12, Expected data_out: bf05007e090cdb12, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 1, Expected fifo_full: 1
+# 
+# Cycle:   33 data_in: cd5ebc9a6e5daddc, data_in_valid: 1, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   34 data_in: 2779e94e2b0eed56, data_in_valid: 1, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 1, Expected fifo_full: 1
+# 
+# Cycle:   35 data_in: 9c0e8a385b6fb9b6, data_in_valid: 1, pop_fifo: 0
+#     data_out: e9ebf6d30fd28f1f, Expected data_out: e9ebf6d30fd28f1f, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 1, Expected fifo_full: 1
+# 
+# Cycle:   36 data_in: 49c65d934a74bf94, data_in_valid: 0, pop_fifo: 1
+#     data_out: d9d292b39799a82f, Expected data_out: d9d292b39799a82f, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   37 data_in: a6fcde4d6dcb69db, data_in_valid: 1, pop_fifo: 1
+#     data_out: efbe94dfda8ae2b5, Expected data_out: efbe94dfda8ae2b5, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   38 data_in: 653b49cabb45e276, data_in_valid: 0, pop_fifo: 1
+#     data_out: 2779e94e2b0eed56, Expected data_out: 2779e94e2b0eed56, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   39 data_in: 02749b04a3071a46, data_in_valid: 1, pop_fifo: 1
+#     data_out: a6fcde4d6dcb69db, Expected data_out: a6fcde4d6dcb69db, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   40 data_in: 44018d88da6ebab4, data_in_valid: 0, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   41 data_in: 975c9c2ee3c530c7, data_in_valid: 0, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   42 data_in: 149e0729fea7a6fd, data_in_valid: 0, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   43 data_in: 9eb7c63ded3408da, data_in_valid: 0, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   44 data_in: 5d7199bab9f50473, data_in_valid: 0, pop_fifo: 0
+#     data_out: 02749b04a3071a46, Expected data_out: 02749b04a3071a46, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   45 data_in: 8d24f61a6a8e05d5, data_in_valid: 1, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   46 data_in: 603921c04b273796, data_in_valid: 0, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   47 data_in: 6e5f0fdc3e99837d, data_in_valid: 0, pop_fifo: 0
+#     data_out: 8d24f61a6a8e05d5, Expected data_out: 8d24f61a6a8e05d5, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   48 data_in: ed8d80db3f5a9b7e, data_in_valid: 1, pop_fifo: 1
+#     data_out: ed8d80db3f5a9b7e, Expected data_out: ed8d80db3f5a9b7e, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   49 data_in: b0bcee61fd28e4fa, data_in_valid: 1, pop_fifo: 1
+#     data_out: b0bcee61fd28e4fa, Expected data_out: b0bcee61fd28e4fa, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   50 data_in: a863965043779186, data_in_valid: 1, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   51 data_in: 60b175c1949a8a29, data_in_valid: 1, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   52 data_in: b98c427325b27b4b, data_in_valid: 0, pop_fifo: 0
+#     data_out: a863965043779186, Expected data_out: a863965043779186, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   53 data_in: d44b80a82758d14e, data_in_valid: 1, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   54 data_in: f33466e6070bb90e, data_in_valid: 1, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   55 data_in: c6b5f48d155a1d2a, data_in_valid: 0, pop_fifo: 0
+#     data_out: 60b175c1949a8a29, Expected data_out: 60b175c1949a8a29, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   56 data_in: 6464e3c8bccfa879, data_in_valid: 0, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   57 data_in: e3b7aec735a0c96b, data_in_valid: 0, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   58 data_in: 5c8295b96216abc4, data_in_valid: 0, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   59 data_in: c33390863fbb3b7f, data_in_valid: 0, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   60 data_in: dece5ebd19452132, data_in_valid: 0, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   61 data_in: 54a879a96543cfca, data_in_valid: 1, pop_fifo: 0
+#     data_out: d44b80a82758d14e, Expected data_out: d44b80a82758d14e, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   62 data_in: 85e51e0bfd8b6afb, data_in_valid: 1, pop_fifo: 1
+#     data_out: f33466e6070bb90e, Expected data_out: f33466e6070bb90e, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   63 data_in: bab148751b60e536, data_in_valid: 1, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   64 data_in: d73fb4ae4465e788, data_in_valid: 1, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 1, Expected fifo_full: 1
+# 
+# Cycle:   65 data_in: 9684e02d1444df28, data_in_valid: 1, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 1, Expected fifo_full: 1
+# 
+# Cycle:   66 data_in: 06b3050d8f1cf61e, data_in_valid: 0, pop_fifo: 0
+#     data_out: 54a879a96543cfca, Expected data_out: 54a879a96543cfca, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 1, Expected fifo_full: 1
+# 
+# Cycle:   67 data_in: c3761c8668ae1bd1, data_in_valid: 1, pop_fifo: 1
+#     data_out: 85e51e0bfd8b6afb, Expected data_out: 85e51e0bfd8b6afb, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   68 data_in: 29efe9536c44f9d8, data_in_valid: 0, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   69 data_in: 8273e204f166fae2, data_in_valid: 1, pop_fifo: 0
+#     data_out: bab148751b60e536, Expected data_out: bab148751b60e536, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   70 data_in: dc0344b8093e4d12, data_in_valid: 1, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   71 data_in: 15890f2bd0c5dca1, data_in_valid: 1, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 1, Expected fifo_full: 1
+# 
+# Cycle:   72 data_in: 50d5f9a113b55527, data_in_valid: 1, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 1, Expected fifo_full: 1
+# 
+# Cycle:   73 data_in: cb5c80962c2d2358, data_in_valid: 0, pop_fifo: 0
+#     data_out: d73fb4ae4465e788, Expected data_out: d73fb4ae4465e788, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 1, Expected fifo_full: 1
+# 
+# Cycle:   74 data_in: d8ace2b1cb227096, data_in_valid: 1, pop_fifo: 1
+#     data_out: 8273e204f166fae2, Expected data_out: 8273e204f166fae2, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   75 data_in: 7ab11bf5158b2b2b, data_in_valid: 1, pop_fifo: 1
+#     data_out: dc0344b8093e4d12, Expected data_out: dc0344b8093e4d12, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   76 data_in: d3a8e4a74249ff84, data_in_valid: 1, pop_fifo: 1
+#     data_out: 15890f2bd0c5dca1, Expected data_out: 15890f2bd0c5dca1, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   77 data_in: 6de5bbdba4da5649, data_in_valid: 1, pop_fifo: 1
+#     data_out: 7ab11bf5158b2b2b, Expected data_out: 7ab11bf5158b2b2b, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   78 data_in: 1546dd2ad0bc5ea1, data_in_valid: 0, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   79 data_in: be75427c41a10583, data_in_valid: 0, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   80 data_in: b7dfaa6fb455f268, data_in_valid: 0, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   81 data_in: 207691401c719738, data_in_valid: 0, pop_fifo: 0
+#     data_out: d3a8e4a74249ff84, Expected data_out: d3a8e4a74249ff84, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   82 data_in: 602831c0e2bf1ac5, data_in_valid: 0, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   83 data_in: 1e1c873cd86a6ab0, data_in_valid: 0, pop_fifo: 0
+#     data_out: 6de5bbdba4da5649, Expected data_out: 6de5bbdba4da5649, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   84 data_in: f0b14ee10aec3515, data_in_valid: 1, pop_fifo: 1
+#     data_out: f0b14ee10aec3515, Expected data_out: f0b14ee10aec3515, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   85 data_in: c336048664b5e3c9, data_in_valid: 1, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   86 data_in: ad67e25ac69da28d, data_in_valid: 1, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   87 data_in: b8ade671060a5d0c, data_in_valid: 1, pop_fifo: 0
+#     data_out: c336048664b5e3c9, Expected data_out: c336048664b5e3c9, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   88 data_in: cf14ce9efbdfc2f7, data_in_valid: 0, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   89 data_in: d00b12a0902a3a20, data_in_valid: 0, pop_fifo: 0
+#     data_out: ad67e25ac69da28d, Expected data_out: ad67e25ac69da28d, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   90 data_in: 86dcf00d6e8af5dd, data_in_valid: 1, pop_fifo: 1
+#     data_out: b8ade671060a5d0c, Expected data_out: b8ade671060a5d0c, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   91 data_in: fef064fdcf63da9e, data_in_valid: 1, pop_fifo: 1
+#     data_out: 86dcf00d6e8af5dd, Expected data_out: 86dcf00d6e8af5dd, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   92 data_in: 71c129e381c39a03, data_in_valid: 1, pop_fifo: 1
+#     data_out: fef064fdcf63da9e, Expected data_out: fef064fdcf63da9e, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   93 data_in: ca9cbc9522119f44, data_in_valid: 0, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   94 data_in: 7c1e5bf8297a1552, data_in_valid: 1, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   95 data_in: 236afd464219e784, data_in_valid: 0, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   96 data_in: 352d616a0beac117, data_in_valid: 0, pop_fifo: 0
+#     data_out: 71c129e381c39a03, Expected data_out: 71c129e381c39a03, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   97 data_in: b05202603e6f0f7c, data_in_valid: 0, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   98 data_in: 92831e25d31dfea6, data_in_valid: 0, pop_fifo: 0
+#     data_out: 7c1e5bf8297a1552, Expected data_out: 7c1e5bf8297a1552, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:   99 data_in: 8a64b014a48f7c49, data_in_valid: 1, pop_fifo: 1
+#     data_out: 8a64b014a48f7c49, Expected data_out: 8a64b014a48f7c49, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  100 data_in: 23907547ae68305c, data_in_valid: 0, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 1, Expected fifo_empty: 1, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  101 data_in: 6851e5d0da058ab4, data_in_valid: 0, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 1, Expected fifo_empty: 1, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  102 data_in: b522406a03e9b707, data_in_valid: 1, pop_fifo: 0
+#     data_out: b522406a03e9b707, Expected data_out: b522406a03e9b707, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  103 data_in: 39e48173a5e79e4b, data_in_valid: 0, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 1, Expected fifo_empty: 1, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  104 data_in: 64e165c9520eefa4, data_in_valid: 1, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  105 data_in: 33836567ea5814d4, data_in_valid: 1, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  106 data_in: 24d2bf4941103982, data_in_valid: 1, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  107 data_in: 49b16f938e054c1c, data_in_valid: 1, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 1, Expected fifo_full: 1
+# 
+# Cycle:  108 data_in: aed72e5de471f8c8, data_in_valid: 0, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 1, Expected fifo_full: 1
+# 
+# Cycle:  109 data_in: 1c8d7f3995a9a82b, data_in_valid: 0, pop_fifo: 0
+#     data_out: 64e165c9520eefa4, Expected data_out: 64e165c9520eefa4, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 1, Expected fifo_full: 1
+# 
+# Cycle:  110 data_in: e82b96d02c848959, data_in_valid: 0, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  111 data_in: 535277a66d8b87db, data_in_valid: 1, pop_fifo: 0
+#     data_out: 33836567ea5814d4, Expected data_out: 33836567ea5814d4, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 1, Expected fifo_full: 1
+# 
+# Cycle:  112 data_in: b4e8d66987e44c0f, data_in_valid: 0, pop_fifo: 1
+#     data_out: 24d2bf4941103982, Expected data_out: 24d2bf4941103982, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  113 data_in: 67d735cf62fd49c5, data_in_valid: 0, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  114 data_in: 3b83cd77b4f9a469, data_in_valid: 0, pop_fifo: 0
+#     data_out: 49b16f938e054c1c, Expected data_out: 49b16f938e054c1c, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  115 data_in: e20e9ac44ddd4d9b, data_in_valid: 0, pop_fifo: 1
+#     data_out: 535277a66d8b87db, Expected data_out: 535277a66d8b87db, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  116 data_in: 984d5a30c378ee86, data_in_valid: 1, pop_fifo: 1
+#     data_out: 984d5a30c378ee86, Expected data_out: 984d5a30c378ee86, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  117 data_in: 038787076a15f5d4, data_in_valid: 0, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 1, Expected fifo_empty: 1, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  118 data_in: 00f25f0145e28b8b, data_in_valid: 1, pop_fifo: 0
+#     data_out: 00f25f0145e28b8b, Expected data_out: 00f25f0145e28b8b, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  119 data_in: e2ecdac5611d9fc2, data_in_valid: 0, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 1, Expected fifo_empty: 1, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  120 data_in: 57fbb9afb302da66, data_in_valid: 1, pop_fifo: 0
+#     data_out: 57fbb9afb302da66, Expected data_out: 57fbb9afb302da66, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  121 data_in: f78576ef8376ac06, data_in_valid: 1, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  122 data_in: 304e4d60f7723eee, data_in_valid: 1, pop_fifo: 0
+#     data_out: f78576ef8376ac06, Expected data_out: f78576ef8376ac06, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  123 data_in: 14b43729322f7d64, data_in_valid: 1, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  124 data_in: 40aaf5813715156e, data_in_valid: 1, pop_fifo: 0
+#     data_out: 304e4d60f7723eee, Expected data_out: 304e4d60f7723eee, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  125 data_in: d57800aa786271f0, data_in_valid: 1, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  126 data_in: 472e958ebe9bbc7d, data_in_valid: 0, pop_fifo: 0
+#     data_out: 14b43729322f7d64, Expected data_out: 14b43729322f7d64, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  127 data_in: 77ebb1efd4b5e6a9, data_in_valid: 1, pop_fifo: 1
+#     data_out: 40aaf5813715156e, Expected data_out: 40aaf5813715156e, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  128 data_in: 5cd20db925029b4a, data_in_valid: 1, pop_fifo: 1
+#     data_out: d57800aa786271f0, Expected data_out: d57800aa786271f0, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  129 data_in: 28c6275132dc4165, data_in_valid: 1, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  130 data_in: b8ea3a719d12083a, data_in_valid: 0, pop_fifo: 0
+#     data_out: 77ebb1efd4b5e6a9, Expected data_out: 77ebb1efd4b5e6a9, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  131 data_in: beda447d1513dd2a, data_in_valid: 1, pop_fifo: 1
+#     data_out: 5cd20db925029b4a, Expected data_out: 5cd20db925029b4a, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  132 data_in: e4a800c976de6bed, data_in_valid: 1, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  133 data_in: e696e8cdeda71cdb, data_in_valid: 0, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  134 data_in: 5e983dbdd14820a2, data_in_valid: 0, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  135 data_in: bd86f47ba86c5e50, data_in_valid: 1, pop_fifo: 0
+#     data_out: 28c6275132dc4165, Expected data_out: 28c6275132dc4165, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 1, Expected fifo_full: 1
+# 
+# Cycle:  136 data_in: ae23ce5c7b7b89f6, data_in_valid: 1, pop_fifo: 1
+#     data_out: beda447d1513dd2a, Expected data_out: beda447d1513dd2a, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  137 data_in: ddd146bb644605c8, data_in_valid: 0, pop_fifo: 1
+#     data_out: e4a800c976de6bed, Expected data_out: e4a800c976de6bed, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  138 data_in: e70f98ce0671030c, data_in_valid: 0, pop_fifo: 1
+#     data_out: bd86f47ba86c5e50, Expected data_out: bd86f47ba86c5e50, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  139 data_in: d9b8c0b35ca26fb9, data_in_valid: 0, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 1, Expected fifo_empty: 1, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  140 data_in: 9cfc7a39066cf10c, data_in_valid: 0, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 1, Expected fifo_empty: 1, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  141 data_in: 271c434e02fbf905, data_in_valid: 0, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 1, Expected fifo_empty: 1, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  142 data_in: 46e7538d847fb208, data_in_valid: 1, pop_fifo: 0
+#     data_out: 46e7538d847fb208, Expected data_out: 46e7538d847fb208, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  143 data_in: 7af6abf548590990, data_in_valid: 0, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 1, Expected fifo_empty: 1, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  144 data_in: 12a90325a005a640, data_in_valid: 1, pop_fifo: 0
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  145 data_in: 94ded82916cbf92d, data_in_valid: 0, pop_fifo: 0
+#     data_out: 12a90325a005a640, Expected data_out: 12a90325a005a640, fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  146 data_in: 2876695060272dc0, data_in_valid: 1, pop_fifo: 1
+#     (data_out NOT CHECKED in this cycle) fifo_empty: 0, Expected fifo_empty: 0, fifo_full: 0, Expected fifo_full: 0
+# 
+# Cycle:  147 data_in: 7a87aff5faf32ef5, data_in_valid: 1, pop_fifo: 0
+# TEST PASSED
+# ** Note: $finish    : fifo_bench.v(1384)
+#    Time: 14700 ns  Iteration: 1  Instance: /fifo_bench

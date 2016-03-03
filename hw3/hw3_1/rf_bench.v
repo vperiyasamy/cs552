@@ -98,8 +98,8 @@ module rf_bench(/*AUTOARG*/);
                read1regsel, read1data, ref_r1data,
                read2regsel, read2data, ref_r2data,
                writeregsel, writedata, write );
-      if ( !rst && ( (ref_r1data != read1data)
-           ||  (ref_r2data != read2data) ) ) begin
+      if ( !rst && ( (ref_r1data !== read1data)
+           ||  (ref_r2data !== read2data) ) ) begin
          $display("ERRORCHECK: Incorrect read data");
          fail = 1;
       end

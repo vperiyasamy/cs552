@@ -21,81 +21,50 @@ run -all
 # Cycle:           4 R1: 2 Sim:     0 Exp:     0 R2: 7 Sim:     0 Exp:     0 W: 6 data: 27122 enable: 0
 # Cycle:           5 R1: 5 Sim: 53930 Exp: 53930 R2: 4 Sim: 22509 Exp: 22509 W: 5 data: 10429 enable: 1
 # Cycle:           6 R1: 3 Sim:     0 Exp:     0 R2: 2 Sim:     0 Exp:     0 W: 0 data:  8832 enable: 0
-# Cycle:           7 R1: 5 Sim: 10429 Exp: 10429 R2: 6 Sim: 27122 Exp:     0 W: 5 data: 47123 enable: 1
-# ERRORCHECK: Incorrect read data
+# Cycle:           7 R1: 5 Sim: 10429 Exp: 10429 R2: 6 Sim:     0 Exp:     0 W: 5 data: 47123 enable: 1
 # Cycle:           8 R1: 3 Sim:     0 Exp:     0 R2: 5 Sim: 47123 Exp: 47123 W: 6 data: 18946 enable: 1
 # Cycle:           9 R1: 7 Sim:     0 Exp:     0 R2: 3 Sim:     0 Exp:     0 W: 2 data: 25866 enable: 0
-# Cycle:          10 R1: 2 Sim: 25866 Exp:     0 R2: 2 Sim: 25866 Exp:     0 W: 0 data: 45889 enable: 0
-# ERRORCHECK: Incorrect read data
+# Cycle:          10 R1: 2 Sim:     0 Exp:     0 R2: 2 Sim:     0 Exp:     0 W: 0 data: 45889 enable: 0
 # Cycle:          11 R1: 1 Sim:     0 Exp:     0 R2: 3 Sim:     0 Exp:     0 W: 6 data: 26038 enable: 0
-# Cycle:          12 R1: 4 Sim: 22509 Exp: 22509 R2: 2 Sim: 25866 Exp:     0 W: 1 data: 39435 enable: 1
-# ERRORCHECK: Incorrect read data
+# Cycle:          12 R1: 4 Sim: 22509 Exp: 22509 R2: 2 Sim:     0 Exp:     0 W: 1 data: 39435 enable: 1
 # Cycle:          13 R1: 7 Sim:     0 Exp:     0 R2: 3 Sim:     0 Exp:     0 W: 6 data: 13114 enable: 1
 # Cycle:          14 R1: 1 Sim: 39435 Exp: 39435 R2: 1 Sim: 39435 Exp: 39435 W: 4 data:  1890 enable: 1
-# Cycle:          15 R1: 7 Sim:     0 Exp:     0 R2: 0 Sim: 45889 Exp:     0 W: 7 data: 24759 enable: 0
-# ERRORCHECK: Incorrect read data
+# Cycle:          15 R1: 7 Sim:     0 Exp:     0 R2: 0 Sim:     0 Exp:     0 W: 7 data: 24759 enable: 0
 # Cycle:          16 R1: 3 Sim:     0 Exp:     0 R2: 1 Sim: 39435 Exp: 39435 W: 0 data: 12873 enable: 1
 # Cycle:          17 R1: 1 Sim: 39435 Exp: 39435 R2: 6 Sim: 13114 Exp: 13114 W: 2 data: 32524 enable: 0
-# Cycle:          18 R1: 7 Sim: 24759 Exp:     0 R2: 5 Sim: 47123 Exp: 47123 W: 6 data: 56082 enable: 1
-# ERRORCHECK: Incorrect read data
-# Cycle:          19 R1: 1 Sim: 39435 Exp: 39435 R2: 7 Sim: 24759 Exp:     0 W: 5 data: 63187 enable: 0
-# ERRORCHECK: Incorrect read data
+# Cycle:          18 R1: 7 Sim:     0 Exp:     0 R2: 5 Sim: 47123 Exp: 47123 W: 6 data: 56082 enable: 1
+# Cycle:          19 R1: 1 Sim: 39435 Exp: 39435 R2: 7 Sim:     0 Exp:     0 W: 5 data: 63187 enable: 0
 # Cycle:          20 R1: 3 Sim:     0 Exp:     0 R2: 1 Sim: 39435 Exp: 39435 W: 2 data: 44607 enable: 0
 # Cycle:          21 R1: 6 Sim: 56082 Exp: 56082 R2: 6 Sim: 56082 Exp: 56082 W: 2 data: 62108 enable: 0
 # Cycle:          22 R1: 3 Sim:     0 Exp:     0 R2: 3 Sim:     0 Exp:     0 W: 3 data: 43055 enable: 1
-# Cycle:          23 R1: 4 Sim:  1890 Exp:  1890 R2: 7 Sim: 24759 Exp:     0 W: 6 data: 14027 enable: 0
-# ERRORCHECK: Incorrect read data
-# Cycle:          24 R1: 1 Sim: 39435 Exp: 39435 R2: 5 Sim: 63187 Exp: 47123 W: 5 data: 27866 enable: 1
-# ERRORCHECK: Incorrect read data
-# Cycle:          25 R1: 7 Sim: 24759 Exp:     0 R2: 1 Sim: 39435 Exp: 39435 W: 0 data: 65348 enable: 0
-# ERRORCHECK: Incorrect read data
-# Cycle:          26 R1: 3 Sim: 43055 Exp: 43055 R2: 6 Sim: 14027 Exp: 56082 W: 2 data: 44508 enable: 1
-# ERRORCHECK: Incorrect read data
-# Cycle:          27 R1: 3 Sim: 43055 Exp: 43055 R2: 6 Sim: 14027 Exp: 56082 W: 7 data: 59726 enable: 0
-# ERRORCHECK: Incorrect read data
-# Cycle:          28 R1: 6 Sim: 14027 Exp: 56082 R2: 0 Sim: 65348 Exp: 12873 W: 0 data: 34681 enable: 0
-# ERRORCHECK: Incorrect read data
+# Cycle:          23 R1: 4 Sim:  1890 Exp:  1890 R2: 7 Sim:     0 Exp:     0 W: 6 data: 14027 enable: 0
+# Cycle:          24 R1: 1 Sim: 39435 Exp: 39435 R2: 5 Sim: 47123 Exp: 47123 W: 5 data: 27866 enable: 1
+# Cycle:          25 R1: 7 Sim:     0 Exp:     0 R2: 1 Sim: 39435 Exp: 39435 W: 0 data: 65348 enable: 0
+# Cycle:          26 R1: 3 Sim: 43055 Exp: 43055 R2: 6 Sim: 56082 Exp: 56082 W: 2 data: 44508 enable: 1
+# Cycle:          27 R1: 3 Sim: 43055 Exp: 43055 R2: 6 Sim: 56082 Exp: 56082 W: 7 data: 59726 enable: 0
+# Cycle:          28 R1: 6 Sim: 56082 Exp: 56082 R2: 0 Sim: 12873 Exp: 12873 W: 0 data: 34681 enable: 0
 # Cycle:          29 R1: 3 Sim: 43055 Exp: 43055 R2: 4 Sim:  1890 Exp:  1890 W: 3 data: 51801 enable: 1
 # Cycle:          30 R1: 1 Sim: 39435 Exp: 39435 R2: 5 Sim: 27866 Exp: 27866 W: 2 data: 57974 enable: 0
-# Cycle:          31 R1: 5 Sim: 27866 Exp: 27866 R2: 6 Sim: 14027 Exp: 56082 W: 7 data: 39684 enable: 1
-# ERRORCHECK: Incorrect read data
-# Cycle:          32 R1: 4 Sim:  1890 Exp:  1890 R2: 0 Sim: 34681 Exp: 12873 W: 5 data: 55592 enable: 1
-# ERRORCHECK: Incorrect read data
-# Cycle:          33 R1: 6 Sim: 14027 Exp: 56082 R2: 0 Sim: 34681 Exp: 12873 W: 5 data: 17692 enable: 1
-# ERRORCHECK: Incorrect read data
-# Cycle:          34 R1: 4 Sim:  1890 Exp:  1890 R2: 6 Sim: 14027 Exp: 56082 W: 5 data:  2266 enable: 0
-# ERRORCHECK: Incorrect read data
-# Cycle:          35 R1: 0 Sim: 34681 Exp: 12873 R2: 3 Sim: 51801 Exp: 51801 W: 6 data: 39354 enable: 0
-# ERRORCHECK: Incorrect read data
-# Cycle:          36 R1: 5 Sim:  2266 Exp: 17692 R2: 2 Sim: 57974 Exp: 44508 W: 7 data:   185 enable: 0
-# ERRORCHECK: Incorrect read data
-# Cycle:          37 R1: 0 Sim: 34681 Exp: 12873 R2: 6 Sim: 39354 Exp: 56082 W: 5 data:  6838 enable: 0
-# ERRORCHECK: Incorrect read data
-# Cycle:          38 R1: 6 Sim: 39354 Exp: 56082 R2: 0 Sim: 34681 Exp: 12873 W: 3 data: 39806 enable: 1
-# ERRORCHECK: Incorrect read data
-# Cycle:          39 R1: 1 Sim: 39435 Exp: 39435 R2: 2 Sim: 57974 Exp: 44508 W: 7 data: 61025 enable: 1
-# ERRORCHECK: Incorrect read data
-# Cycle:          40 R1: 6 Sim: 39354 Exp: 56082 R2: 0 Sim: 34681 Exp: 12873 W: 5 data: 23029 enable: 1
-# ERRORCHECK: Incorrect read data
+# Cycle:          31 R1: 5 Sim: 27866 Exp: 27866 R2: 6 Sim: 56082 Exp: 56082 W: 7 data: 39684 enable: 1
+# Cycle:          32 R1: 4 Sim:  1890 Exp:  1890 R2: 0 Sim: 12873 Exp: 12873 W: 5 data: 55592 enable: 1
+# Cycle:          33 R1: 6 Sim: 56082 Exp: 56082 R2: 0 Sim: 12873 Exp: 12873 W: 5 data: 17692 enable: 1
+# Cycle:          34 R1: 4 Sim:  1890 Exp:  1890 R2: 6 Sim: 56082 Exp: 56082 W: 5 data:  2266 enable: 0
+# Cycle:          35 R1: 0 Sim: 12873 Exp: 12873 R2: 3 Sim: 51801 Exp: 51801 W: 6 data: 39354 enable: 0
+# Cycle:          36 R1: 5 Sim: 17692 Exp: 17692 R2: 2 Sim: 44508 Exp: 44508 W: 7 data:   185 enable: 0
+# Cycle:          37 R1: 0 Sim: 12873 Exp: 12873 R2: 6 Sim: 56082 Exp: 56082 W: 5 data:  6838 enable: 0
+# Cycle:          38 R1: 6 Sim: 56082 Exp: 56082 R2: 0 Sim: 12873 Exp: 12873 W: 3 data: 39806 enable: 1
+# Cycle:          39 R1: 1 Sim: 39435 Exp: 39435 R2: 2 Sim: 44508 Exp: 44508 W: 7 data: 61025 enable: 1
+# Cycle:          40 R1: 6 Sim: 56082 Exp: 56082 R2: 0 Sim: 12873 Exp: 12873 W: 5 data: 23029 enable: 1
 # Cycle:          41 R1: 1 Sim: 39435 Exp: 39435 R2: 5 Sim: 23029 Exp: 23029 W: 3 data: 46232 enable: 1
-# Cycle:          42 R1: 4 Sim:  1890 Exp:  1890 R2: 2 Sim: 57974 Exp: 44508 W: 0 data: 53582 enable: 1
-# ERRORCHECK: Incorrect read data
-# Cycle:          43 R1: 1 Sim: 39435 Exp: 39435 R2: 6 Sim: 39354 Exp: 56082 W: 7 data: 26342 enable: 0
-# ERRORCHECK: Incorrect read data
-# Cycle:          44 R1: 2 Sim: 57974 Exp: 44508 R2: 5 Sim: 23029 Exp: 23029 W: 0 data: 65438 enable: 1
-# ERRORCHECK: Incorrect read data
-# Cycle:          45 R1: 0 Sim: 65438 Exp: 65438 R2: 2 Sim: 57974 Exp: 44508 W: 3 data: 16659 enable: 1
-# ERRORCHECK: Incorrect read data
-# Cycle:          46 R1: 6 Sim: 39354 Exp: 56082 R2: 2 Sim: 57974 Exp: 44508 W: 1 data: 43972 enable: 0
-# ERRORCHECK: Incorrect read data
-# Cycle:          47 R1: 4 Sim:  1890 Exp:  1890 R2: 7 Sim: 26342 Exp: 61025 W: 2 data: 36998 enable: 0
-# ERRORCHECK: Incorrect read data
-# Cycle:          48 R1: 2 Sim: 36998 Exp: 44508 R2: 5 Sim: 23029 Exp: 23029 W: 4 data: 52612 enable: 0
-# ERRORCHECK: Incorrect read data
-# Cycle:          49 R1: 1 Sim: 43972 Exp: 39435 R2: 1 Sim: 43972 Exp: 39435 W: 3 data: 43406 enable: 1
-# ERRORCHECK: Incorrect read data
-# Cycle:          50 R1: 7 Sim: 26342 Exp: 61025 R2: 1 Sim: 43972 Exp: 39435 W: 5 data: 58678 enable: 1
-# ERRORCHECK: Incorrect read data
-# TEST FAILED
+# Cycle:          42 R1: 4 Sim:  1890 Exp:  1890 R2: 2 Sim: 44508 Exp: 44508 W: 0 data: 53582 enable: 1
+# Cycle:          43 R1: 1 Sim: 39435 Exp: 39435 R2: 6 Sim: 56082 Exp: 56082 W: 7 data: 26342 enable: 0
+# Cycle:          44 R1: 2 Sim: 44508 Exp: 44508 R2: 5 Sim: 23029 Exp: 23029 W: 0 data: 65438 enable: 1
+# Cycle:          45 R1: 0 Sim: 65438 Exp: 65438 R2: 2 Sim: 44508 Exp: 44508 W: 3 data: 16659 enable: 1
+# Cycle:          46 R1: 6 Sim: 56082 Exp: 56082 R2: 2 Sim: 44508 Exp: 44508 W: 1 data: 43972 enable: 0
+# Cycle:          47 R1: 4 Sim:  1890 Exp:  1890 R2: 7 Sim: 61025 Exp: 61025 W: 2 data: 36998 enable: 0
+# Cycle:          48 R1: 2 Sim: 44508 Exp: 44508 R2: 5 Sim: 23029 Exp: 23029 W: 4 data: 52612 enable: 0
+# Cycle:          49 R1: 1 Sim: 39435 Exp: 39435 R2: 1 Sim: 39435 Exp: 39435 W: 3 data: 43406 enable: 1
+# Cycle:          50 R1: 7 Sim: 61025 Exp: 61025 R2: 1 Sim: 39435 Exp: 39435 W: 5 data: 58678 enable: 1
+# TEST PASSED
 # ** Note: $finish    : rf_bench.v(113)
 #    Time: 5010 ns  Iteration: 0  Instance: /rf_bench

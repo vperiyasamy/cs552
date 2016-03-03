@@ -1,0 +1,22 @@
+Line 22: Bad keyword initial
+Line 23: begin without always/case
+Line 27: Bad keyword if
+Line 30: Bad keyword else
+Line 35: Bad keyword posedge
+Line 35: Bad keyword posedge
+Line 37: Bad keyword if
+Line 42: Bad keyword else
+Line 42: Bad keyword if
+Line 47: Bad keyword else
+Line 48: Bad keyword if
+Line 35: Always without case(x)
+Line 55: Bad keyword posedge
+Line 57: Bad keyword if
+Line 60: Bad keyword else
+Line 55: Always without case(x)
+Line 63: Bad keyword posedge
+Line 65: Bad keyword if
+Line 65: Bad keyword !==
+Line 69: Bad keyword else
+Line 63: Always without case(x)
+End of file /afs/cs.wisc.edu/u/v/i/viswesh/private/cs552/hw3/hw3_2/sc_bench.v. Hash = 394055592
